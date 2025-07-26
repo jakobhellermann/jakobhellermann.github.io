@@ -1,11 +1,43 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://jakobhellermann.github.io/"
+languageCode = "en-us"
+title = "jjh"
+
+enableEmoji = false
+
+[Languages.en-us]
+languageName = "English"
+languageCode = "en-us"
+contentDir = "content"
+
+[Languages.en-us.menu]
+[[Languages.en-us.menu.main]]
+pageRef = "/"
+name = 'Home'
+weight = 10
+[[Languages.en-us.menu.main]]
+pageRef = "posts"
+name = 'Posts'
+url = '/posts'
+weight = 20
+
+[Languages.en-us.params]
+defaultColor = "dark"
+description = ""
+mainSections = ['posts']
+
+[Languages.en-us.params.author]
+avatar = "avatar.jpg"
+name = "Jakob Hellermann"
+# intro = "Blog"
+# description = ""
+
 
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/jakobhellermann"
-
+[[params.socialIcons]]
+name = "bluesky"
+url = "https://bsky.app/profile/dubisteinkek.bsky.social"
 [[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"

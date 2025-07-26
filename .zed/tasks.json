@@ -1,0 +1,7 @@
+[
+  {
+    "label": "Hugo Server",
+    "command": "hugo server --buildDrafts",
+    "hide": "on_success"
+  }
+]
