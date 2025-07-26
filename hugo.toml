@@ -42,6 +42,10 @@ url = "https://bsky.app/profile/dubisteinkek.bsky.social"
 name = "Rss"
 url = "/index.xml"
 
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
+
 [module]
 
 [[module.imports]]
