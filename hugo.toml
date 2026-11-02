@@ -1,12 +1,12 @@
 baseURL = "https://jakobhellermann.github.io/"
-languageCode = "en-us"
+locale = "en-us"
 title = "jjh"
 
 enableEmoji = false
 
 [Languages.en-us]
-languageName = "English"
-languageCode = "en-us"
+label = "English"
+locale = "en-us"
 contentDir = "content"
 
 [Languages.en-us.menu]
@@ -49,4 +49,4 @@ dir = ':cacheDir/images'
 [module]
 
 [[module.imports]]
-path = "github.com/hugo-sid/hugo-blog-awesome"
+path = "github.com/hugo-sid/hugo-blog-awesome/v2"
